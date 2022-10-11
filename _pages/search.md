@@ -24,9 +24,9 @@ title: Search
 	}
 </style>
 
-<!-- Html Elements for Search -->
+<!-- HTML Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Search...">
+<input type="text" id="search-input" placeholder="Пошук...">
 <ol id="results-container"></ol>
 </div>
 
@@ -40,7 +40,7 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
-  noResultsText: 'No results found',
+  noResultsText: 'Нічого не знайдено',
   limit: 10,
   fuzzy: false,
   exclude: ['Welcome']
