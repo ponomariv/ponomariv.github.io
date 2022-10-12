@@ -1,7 +1,7 @@
-site: Sidey
+site: Так казав Пономарів
 url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+title: Так казав Пономарів
+description: Дописи професора Пономарева у зручному форматі
 twitter:
   username: #yourusername
   card: summary
@@ -17,6 +17,9 @@ permalink: pretty
 baseurl: ""
 
 highlighter: none
+
+# Font Settings
+googlewebfonts: @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i");
 
 exclude:
   - .jekyll-cache
