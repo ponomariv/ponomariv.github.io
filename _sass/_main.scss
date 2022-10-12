@@ -1,6 +1,6 @@
 *,:after,:before {
 	box-sizing:border-box;
-	background-color:inherit;
+	background-color: #faf3ea;
 	color:inherit;
 	margin:0;
 	padding:0;
@@ -20,9 +20,10 @@ nav ul {
 }
 
 a {
-    color: #000;
+    color: #452813;
     text-decoration-skip-ink: auto;
     text-decoration: underline;
+	border-bottom: 1px dotted #452813;
 }
 
 pre {
