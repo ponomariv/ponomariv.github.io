@@ -18,9 +18,6 @@ baseurl: ""
 
 highlighter: none
 
-# Font Settings
-googlewebfonts: @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i");
-
 exclude:
   - .jekyll-cache
   
