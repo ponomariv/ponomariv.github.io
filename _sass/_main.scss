@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i");
+	font-family: url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i"), Georgia, Sans-Serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height:1.5;
@@ -163,7 +163,6 @@ main {
 	max-width:60rem;
 	margin:2rem auto;
 	padding:1rem;
-	.temp { width: 90%; max-width: 90%; margin: 20px auto 40px auto; font-family: "Playfair Display", Georgia, Sans-Serif; font-size: 36px; line-height: 42px; }
 }
 
 
