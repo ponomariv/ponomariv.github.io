@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 <section class="posts">
 <h1><i>Так писав Пономарів</i></h1>
 
@@ -51,7 +49,7 @@ SimpleJekyllSearch({
 })
 </script>
 
-<h3><i>Найостанніше:</i></h3>
+<h3><i><u>Найостанніше:</u></i></h3>
 <ul>
 {% for post in site.posts %}
 <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
