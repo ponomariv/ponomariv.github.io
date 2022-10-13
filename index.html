@@ -5,6 +5,8 @@ layout: default
 
 <section class="posts">
 
+<h1>Так писав Пономарів</h1>
+
 <style>
 	#search-container {
 	    max-width: 100%;
@@ -50,7 +52,7 @@ SimpleJekyllSearch({
 })
 </script>
 
-Найостанніше:
+<h2>Найостанніше:</h2>
 <ul>
 {% for post in site.posts %}
 <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
