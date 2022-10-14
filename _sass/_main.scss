@@ -13,7 +13,7 @@ body {
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height: 1.5;
-	font-size: 1rem;
+	font-size: 24px;
 	font-weight: 300;
 	color: rgb(96, 62, 38);
 }
@@ -40,7 +40,7 @@ nav ul {
 a {
     color: #452813;
     text-decoration-skip-ink: all;
-    text-decoration: underline;
+    
     border-bottom: 1px dotted #452813;
 }
 
@@ -50,7 +50,7 @@ pre {
 }
 
 .post p {
-	margin: .5rem 0; text-indent: 4ch;
+	margin: .5rem 0; text-indent: 2ch;
 }
 
 .post h1, .post h2, .post h3, .post h4 {
