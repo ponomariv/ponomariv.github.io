@@ -22,6 +22,21 @@ nav ul {
     border-right: 1px solid #452813;
 }
 
+.navbar { overflow: hidden; top: 0; width: 100%; font-family: "Playfair Display", Georgia, Sans-Serif;}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #a38972;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover { 
+  color: #452813;
+}
+
 a {
     color: #452813;
     text-decoration-skip-ink: all;
