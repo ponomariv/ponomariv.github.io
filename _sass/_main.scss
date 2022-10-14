@@ -13,8 +13,8 @@ body {
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height: 1.5;
-	font-size: 24px;
-	font-weight: 300;
+	font-size: 1rem;
+	font-weight: 400;
 	color: rgb(96, 62, 38);
 }
 
@@ -40,7 +40,7 @@ nav ul {
 a {
     color: #452813;
     text-decoration-skip-ink: all;
-    
+    text-decoration: none;
     border-bottom: 1px dotted #452813;
 }
 
@@ -182,6 +182,7 @@ main {
 	max-width:60rem;
 	margin:2rem auto;
 	padding:1rem;
+font-size: 24px;
 }
 
 
