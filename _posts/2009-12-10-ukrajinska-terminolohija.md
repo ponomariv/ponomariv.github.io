@@ -2,7 +2,7 @@
 layout: post
 title: Чи досконала українська термінологія?
 description: Take a look at the fonts in this post that can make your text editor or terminal emulator look little bit nicer
-tags: [слововживання]
+tags: [слововживання, словотвір]
 ---
 
 Сьогодні поговоримо про термінологію. Наприклад, є таке питання: як перекласти українською мовою російське словосполучення термінологічного типу „путевой лист“?
